@@ -6,6 +6,18 @@
     --bg-techs: #CB92B1;}
 body{
     background-color: var(--body-bg-color);
-    
+    display: flex;
     font-family: 'Merriweather Sans', sans-serif;
+}
+.m{
+    display: grid;
+    grid-column: auto;
+    position: absolute;
+    background-color: red;
+}
+.lado{
+    margin-right: 10%;
+}
+#foto{
+    display: grid;
 }
